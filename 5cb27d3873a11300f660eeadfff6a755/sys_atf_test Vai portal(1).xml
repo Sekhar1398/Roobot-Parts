@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<unload unload_date="2021-05-13 18:38:29">
+<sys_atf_test action="INSERT_OR_UPDATE">
+<active>false</active>
+<copied_from display_value=""/>
+<description>This is a sample Quick-Start Test (QST) to test the Custom Robots app. It must be copied using "Copy Test" before it can be run or modified.
+
+Navigates to the Custom Robots order page, fills out the form, and saves the customized robot as a template, then asserts that the template was saved successfully and has the correct values.</description>
+<enable_parameterized_testing>false</enable_parameterized_testing>
+<name>Custom Robots: Save a Robot as a Template</name>
+<parameters/>
+<remember/>
+<sys_class_name>sys_atf_test</sys_class_name>
+<sys_created_by>cmb</sys_created_by>
+<sys_created_on>2021-04-16 21:14:04</sys_created_on>
+<sys_id>8fe9edbdbc27e4107f44e41e341dd113</sys_id>
+<sys_mod_count>4</sys_mod_count>
+<sys_name>Custom Robots: Save a Robot as a Template</sys_name>
+<sys_package display_value="Global" source="global">global</sys_package>
+<sys_policy>read</sys_policy>
+<sys_scope display_value="Global">global</sys_scope>
+<sys_update_name>sys_atf_test_8fe9edbdbc27e4107f44e41e341dd113</sys_update_name>
+<sys_updated_by>cmb</sys_updated_by>
+<sys_updated_on>2021-04-16 21:22:53</sys_updated_on>
+</sys_atf_test>
+<sys_atf_test action="INSERT_OR_UPDATE">
+<active>true</active>
+<copied_from display_value=""/>
+<description/>
+<enable_parameterized_testing>false</enable_parameterized_testing>
+<name>Exercise 3a (completed sample): Order Custom Robot</name>
+<parameters/>
+<remember/>
+<sys_class_name>sys_atf_test</sys_class_name>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2018-05-04 07:35:24</sys_created_on>
+<sys_id>090d872ebd3d13007f44f6d877876bb4</sys_id>
+<sys_mod_count>1</sys_mod_count>
+<sys_name>Exercise 3a (completed sample): Order Custom Robot</sys_name>
+<sys_package display_value="Global" source="global">global</sys_package>
+<sys_policy>read</sys_policy>
+<sys_scope display_value="Global">global</sys_scope>
+<sys_update_name>sys_atf_test_090d872ebd3d13007f44f6d877876bb4</sys_update_name>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2018-05-04 07:35:56</sys_updated_on>
+</sys_atf_test>
+<sys_atf_test action="INSERT_OR_UPDATE">
+<active>true</active>
+<copied_from display_value=""/>
+<description>A test that opens a new Robot order form, sets all of the required values and then submits it</description>
+<enable_parameterized_testing>false</enable_parameterized_testing>
+<name>Order Robot</name>
+<parameters/>
+<remember/>
+<sys_class_name>sys_atf_test</sys_class_name>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2020-04-22 23:17:24</sys_created_on>
+<sys_id>b4a31dded51410107f44d8a72cdffb0a</sys_id>
+<sys_mod_count>1</sys_mod_count>
+<sys_name>Order Robot</sys_name>
+<sys_package display_value="Custom Robots" source="sn_custom_robots">5cb27d3873a11300f660eeadfff6a755</sys_package>
+<sys_policy/>
+<sys_scope display_value="Custom Robots">5cb27d3873a11300f660eeadfff6a755</sys_scope>
+<sys_update_name>sys_atf_test_b4a31dded51410107f44d8a72cdffb0a</sys_update_name>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2020-04-22 23:34:47</sys_updated_on>
+</sys_atf_test>
+<sys_atf_test action="INSERT_OR_UPDATE">
+<active>true</active>
+<copied_from display_value=""/>
+<description>Test that opens a new Robot order UI page, sets all of the required values, then submits it</description>
+<enable_parameterized_testing>false</enable_parameterized_testing>
+<name>Order Robot via Portal</name>
+<parameters/>
+<remember/>
+<sys_class_name>sys_atf_test</sys_class_name>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2021-04-14 20:47:46</sys_created_on>
+<sys_id>e210db4dbc2764107f44e41e341dd18c</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_name>Order Robot via Portal</sys_name>
+<sys_package display_value="Custom Robots" source="sn_custom_robots">5cb27d3873a11300f660eeadfff6a755</sys_package>
+<sys_policy/>
+<sys_scope display_value="Custom Robots">5cb27d3873a11300f660eeadfff6a755</sys_scope>
+<sys_update_name>sys_atf_test_e210db4dbc2764107f44e41e341dd18c</sys_update_name>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2021-04-14 20:47:46</sys_updated_on>
+</sys_atf_test>
+</unload>
