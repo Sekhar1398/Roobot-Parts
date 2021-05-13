@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step">
+    <sys_atf_step action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <copied_from/>
+        <description>Click the component: 'Button &lt;button&gt;: Order'</description>
+        <display_name>Click Component (Custom UI)</display_name>
+        <inputs/>
+        <mugshots_cache_json>{"4c8d0f747d3810306df4f53395e7ea5a":"{\"area\":\"default\",\"sn_atf_mugshot_short_description\":\"Button &lt;button&gt;: Order\",\"inner_text\":\"Order\",\"sn_atf_mugshot_long_description\":\"Button &lt;button&gt;: Order\",\"methods\":[\"click\"],\"sn_atf_mugshot_label\":\"Order\",\"type\":\"submit\",\"version\":\"19.0\",\"get_value_result\":\"Order\",\"sn_atf_mugshot_tag_display_name\":\"Button &lt;button&gt;\",\"sn_atf_mugshot_value\":\"Order\",\"tag\":\"button\",\"isDisabled\":false,\"hash\":\"4c8d0f747d3810306df4f53395e7ea5a\"}"}</mugshots_cache_json>
+        <notes/>
+        <order>5</order>
+        <snapshot/>
+        <step_config display_value="Click Component (Custom UI)">def25c4b73730300c79260bdfaf6a700</step_config>
+        <sys_class_name>sys_atf_step</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-04-14 20:53:43</sys_created_on>
+        <sys_id>5862d301bc6764107f44e41e341dd163</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Click Component (Custom UI)</sys_name>
+        <sys_package display_value="Custom Robots" source="sn_custom_robots">5cb27d3873a11300f660eeadfff6a755</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Custom Robots">5cb27d3873a11300f660eeadfff6a755</sys_scope>
+        <sys_update_name>sys_atf_step_5862d301bc6764107f44e41e341dd163</sys_update_name>
+        <sys_updated_by>cmb</sys_updated_by>
+        <sys_updated_on>2021-04-16 19:16:00</sys_updated_on>
+        <table/>
+        <test display_value="Order Robot via Portal">e210db4dbc2764107f44e41e341dd18c</test>
+        <timeout/>
+        <warning_message/>
+    </sys_atf_step>
+    <sys_variable_value action="delete_multiple" query="document_key=5862d301bc6764107f44e41e341dd163"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>5862d301bc6764107f44e41e341dd163</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-04-14 20:53:43</sys_created_on>
+        <sys_id>f962d301bc6764107f44e41e341dd1b4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-04-14 20:53:43</sys_updated_on>
+        <value>4c8d0f747d3810306df4f53395e7ea5a</value>
+        <variable display_value="Component">ee05588b73730300c79260bdfaf6a749</variable>
+    </sys_variable_value>
+</record_update>

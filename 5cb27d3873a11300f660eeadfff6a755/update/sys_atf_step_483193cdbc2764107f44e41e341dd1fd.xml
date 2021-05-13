@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step">
+    <sys_atf_step action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <copied_from/>
+        <description>Set the components on the page as follows:
+'Text &lt;input&gt; [sys_display.buyer]' = {{Step 1: Create a User.User}}
+</description>
+        <display_name>Set Component Values (Custom UI)</display_name>
+        <inputs/>
+        <inputs/>
+        <mugshots_cache_json>{"de954e51a10a8e77cc4fb3940c7a3b8a":"{\"area\":\"default\",\"sn-atf-data-type-params\":\"{\\\"reference\\\":\\\"sys_user\\\",\\\"reference_qual\\\":\\\"active=true\\\"}\",\"sn_atf_mugshot_short_description\":\"Text &lt;input&gt; [sys_display.buyer]\",\"sn_atf_mugshot_long_description\":\"Text &lt;input&gt; [sys_display.buyer]\",\"methods\":[\"setValue\"],\"sn_atf_mugshot_label\":\"sys_display.buyer\",\"type\":\"text\",\"version\":\"19.0\",\"sn-atf-class\":\"builtin:ATF.BaseMacroReference\",\"get_value_result\":\"\",\"sn_atf_mugshot_tag_display_name\":\"Text &lt;input&gt;\",\"data_type\":\"reference\",\"name\":\"sys_display.buyer\",\"sn_atf_mugshot_value\":\"\",\"tag\":\"input\",\"isDisabled\":false,\"id\":\"sys_display.buyer\",\"hash\":\"de954e51a10a8e77cc4fb3940c7a3b8a\",\"sn-atf-data-type\":\"reference\",\"html_value\":\"\"}"}</mugshots_cache_json>
+        <notes/>
+        <order>3</order>
+        <snapshot/>
+        <step_config display_value="Set Component Values (Custom UI)">e5dd168473330300c79260bdfaf6a794</step_config>
+        <sys_class_name>sys_atf_step</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-04-14 20:49:15</sys_created_on>
+        <sys_id>483193cdbc2764107f44e41e341dd1fd</sys_id>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_name>Set Component Values (Custom UI)</sys_name>
+        <sys_package display_value="Custom Robots" source="sn_custom_robots">5cb27d3873a11300f660eeadfff6a755</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Custom Robots">5cb27d3873a11300f660eeadfff6a755</sys_scope>
+        <sys_update_name>sys_atf_step_483193cdbc2764107f44e41e341dd1fd</sys_update_name>
+        <sys_updated_by>cmb</sys_updated_by>
+        <sys_updated_on>2021-04-16 19:16:12</sys_updated_on>
+        <table/>
+        <test display_value="Order Robot via Portal">e210db4dbc2764107f44e41e341dd18c</test>
+        <timeout/>
+        <warning_message/>
+    </sys_atf_step>
+    <sys_variable_value action="delete_multiple" query="document_key=483193cdbc2764107f44e41e341dd1fd"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>483193cdbc2764107f44e41e341dd1fd</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-04-14 20:49:15</sys_created_on>
+        <sys_id>e86113cdbc2764107f44e41e341dd1a0</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_updated_by>cmb</sys_updated_by>
+        <sys_updated_on>2021-04-16 19:16:13</sys_updated_on>
+        <value>de954e51a10a8e77cc4fb3940c7a3b8a={{step['d12f0179bce3e4107f44e41e341dd188'].user}}^EQ</value>
+        <variable display_value="Component values">d12fde8473330300c79260bdfaf6a7b5</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=483193cdbc2764107f44e41e341dd1fd"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>component_values</field>
+        <id>483193cdbc2764107f44e41e341dd1fd</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-04-14 20:49:15</sys_created_on>
+        <sys_id>686113cdbc2764107f44e41e341dd1a0</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>cmb</sys_updated_by>
+        <sys_updated_on>2021-04-16 19:16:12</sys_updated_on>
+        <table>var__m_atf_input_variable_e5dd168473330300c79260bdfaf6a794</table>
+        <value>de954e51a10a8e77cc4fb3940c7a3b8a={{step['d12f0179bce3e4107f44e41e341dd188'].user}}^EQ</value>
+    </sys_element_mapping>
+</record_update>

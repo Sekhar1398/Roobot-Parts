@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_page">
+    <sys_ui_page action="INSERT_OR_UPDATE">
+        <category>general</category>
+        <client_script><![CDATA[function showRest() {
+		document.getElementById("restOfContent").style = "";
+}
+
+angular.module('my_app', ['sn.common']).controller("RobotOrderController", ["$scope", function($scope) {
+	$scope.head_field = {};
+	$scope.arms_field = {};
+	$scope.body_field = {};
+	$scope.legs_field = {};
+	$scope.price = 0;
+	$scope.requested_date = undefined;
+	$scope.shipped_date = undefined;
+	
+	$scope.submitOrder = function() {
+		var gr = new GlideRecord("sn_custom_robots_order");
+		gr.head = $scope.head_field.value;
+		gr.arms = $scope.arms_field.value;
+		gr.body = $scope.body_field.value;
+		gr.legs = $scope.legs_field.value;
+		gr.requested = $scope.requested_date.toISOString();
+		gr.shipped = $scope.shipped_date.toISOString();
+		gr.buyer = buyer.value;
+		var sys_id =  gr.insert();
+
+		if (sys_id)
+			window.location.href = "/sn_custom_robots_order.do?sys_id=" + sys_id;
+	};
+
+	$scope.updatePrice = function() {
+		var parts = [$scope.head_field.value, $scope.arms_field.value, $scope.body_field.value, $scope.legs_field.value];
+		
+		var gr = new GlideRecord("sn_custom_robots_part");
+		gr.addQuery("sys_id", "IN", parts.join());
+		gr.query();
+		
+		$scope.price = 0;
+		while (gr.next())
+			$scope.price += parseInt(gr.price);
+	};
+
+	$scope.saveAsTemplate = function() {
+		var form = new GlideModalForm("Save as Template", "sn_custom_robots_template");
+
+		var name = "My New Robot Template";
+
+		//var displayName = $("sys_display.buyer");
+		//if (displayName && displayName.value)
+		//	name = displayName.value + "'s Robot Template";
+
+		var query = "name=" + name +
+			"^head=" + $scope.head_field.value +
+			"^arms=" + $scope.arms_field.value +
+			"^body=" + $scope.body_field.value +
+			"^legs=" + $scope.legs_field.value;
+
+		form.setPreference("sysparm_query", query);
+		form.render();
+	};
+
+	// Check for changes in the parts so the prices can be updated
+	$scope.$watch(function() { return $scope.head_field.value; }, function() { $scope.updatePrice(); });
+	$scope.$watch(function() { return $scope.arms_field.value; }, function() { $scope.updatePrice(); });
+	$scope.$watch(function() { return $scope.body_field.value; }, function() { $scope.updatePrice(); });
+	$scope.$watch(function() { return $scope.legs_field.value; }, function() { $scope.updatePrice(); });
+}]);]]></client_script>
+        <description>A portal view to order a robot</description>
+        <direct>false</direct>
+        <endpoint>sn_custom_robots_Order Robot Portal.do</endpoint>
+        <html><![CDATA[<?xml version="1.0" encoding="utf-8" ?>
+<j:jelly trim="false" xmlns:j="jelly:core" xmlns:g="glide" xmlns:j2="null" xmlns:g2="null">
+	<g:requires name="scripts/angular_includes_1.4.js" includes="true" />
+	<g:requires name="scripts/sn/common/js_includes_common.js" includes="true" />
+	<div ng-app="my_app">
+		<div ng-controller="RobotOrderController">
+			<h1>Request Robot</h1>
+			<h2>Caller</h2>
+			<table>
+				<tr>
+					<td>
+						<label>Who is buying this?</label>
+					</td>
+					<td>
+						<g:ui_reference name="buyer" query="active=true" id="usrbuyer" table="sys_user" onchange="showRest()"/>
+					</td>
+				</tr>
+			</table>
+			<div id="restOfContent" style="display: none">
+				<h2>Request Timeline</h2>
+				<table>
+					<tr>
+						<td><label>Date Requested</label></td>
+						<td>
+							<input type="date" id="requested" ng-model="requested_date"/>
+						</td>
+					</tr>
+					<tr>
+						<td><label>Date Shipped</label></td>
+						<td>
+							<input type="date" id="shipped" ng-model="shipped_date"/>
+						</td>
+					</tr>
+				</table>
+				<h2>Parts</h2>
+				<table>
+					<tr>
+						<td><label>Head</label></td>
+						<td>
+							<sn-reference-picker
+								id="head_picker"
+								sn-options="{placeholder:'Pick head:'}"
+								ed="{reference:'sn_custom_robots_part', searchField:'name', qualifier:'type=head^EQ'}"
+								field="head_field"
+							/>
+						</td>
+					</tr>
+					<tr>
+						<td><label>Arms</label></td>
+						<td>
+							<sn-reference-picker
+								id="arms_picker"
+								sn-options="{placeholder:'Pick arms:'}"
+								ed="{reference:'sn_custom_robots_part', searchField:'name', qualifier:'type=arms^EQ'}"
+								field="arms_field"
+							/>
+						</td>
+					</tr>
+					<tr>
+						<td><label>Body</label></td>
+						<td>
+							<sn-reference-picker
+								id="body_picker"
+								sn-options="{placeholder:'Pick body:'}"
+								ed="{reference:'sn_custom_robots_part', searchField:'name', qualifier:'type=body^EQ'}"
+								field="body_field"
+							/>
+						</td>
+					</tr>
+					<tr>
+						<td><label>Legs</label></td>
+						<td>
+							<sn-reference-picker
+								id="legs_picker"
+								sn-options="{placeholder:'Pick legs:'}"
+								ed="{reference:'sn_custom_robots_part', searchField:'name', qualifier:'type=legs^EQ'}"
+								field="legs_field"
+							/>
+						</td>
+					</tr>
+					<tr id="total_price" style="font-size:16px">
+							<td><label>Your total:</label></td>
+							<td style="padding:10px;" ng-bind="'$' + price"></td>
+					</tr>
+				</table>
+				<br/>
+				<button ng-click="submitOrder()">Order</button>
+				<button ng-click="saveAsTemplate()">Save as Template</button>
+			</div>
+		</div>
+	</div>
+</j:jelly>]]></html>
+        <name>Order Robot Portal</name>
+        <processing_script/>
+        <sys_class_name>sys_ui_page</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-04-13 18:00:36</sys_created_on>
+        <sys_id>a70f5db4bce324107f44e41e341dd160</sys_id>
+        <sys_mod_count>51</sys_mod_count>
+        <sys_name>Order Robot Portal</sys_name>
+        <sys_package display_value="Custom Robots" source="sn_custom_robots">5cb27d3873a11300f660eeadfff6a755</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Custom Robots">5cb27d3873a11300f660eeadfff6a755</sys_scope>
+        <sys_update_name>sys_ui_page_a70f5db4bce324107f44e41e341dd160</sys_update_name>
+        <sys_updated_by>cmb</sys_updated_by>
+        <sys_updated_on>2021-04-16 18:52:13</sys_updated_on>
+    </sys_ui_page>
+</record_update>

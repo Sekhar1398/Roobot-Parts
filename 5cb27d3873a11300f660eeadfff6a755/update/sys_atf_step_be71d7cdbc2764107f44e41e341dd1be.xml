@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step">
+    <sys_atf_step action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <copied_from/>
+        <description>Set the components on the page as follows:
+'Date &lt;input&gt; [shipped]' = 2020-04-22
+'Date &lt;input&gt; [requested]' = 2020-04-21
+'Text &lt;input&gt; [head_picker]' = Binocular head with dual shades
+'Text &lt;input&gt; [body_picker]' = Humanoid trunk
+'Text &lt;input&gt; [arms_picker]' = Articulated clamps
+'Text &lt;input&gt; [legs_picker]' = Arachnid legs
+</description>
+        <display_name>Set Component Values (Custom UI)</display_name>
+        <inputs/>
+        <mugshots_cache_json>{"66ad1cffdca2202611d9ca93e2643f7b":"{\"area\":\"default\",\"sn-atf-data-type-params\":\"{\\\"reference\\\" : \\\"sn_custom_robots_part\\\", \\\"reference_qual\\\" : \\\"type=body^EQ\\\", \\\"valueField\\\" : \\\"sys_id\\\", \\\"displayField\\\" : \\\"name\\\"}\",\"sn_atf_mugshot_short_description\":\"Text &lt;input&gt; [body_picker]\",\"sn_atf_mugshot_long_description\":\"Text &lt;input&gt; [body_picker]\",\"methods\":[\"setValue\"],\"sn_atf_mugshot_label\":\"body_picker\",\"index\":2,\"type\":\"text\",\"version\":\"19.0\",\"get_value_result\":\"\",\"sn_atf_mugshot_tag_display_name\":\"Text &lt;input&gt;\",\"data_type\":\"reference\",\"sn_atf_mugshot_value\":\"\",\"tag\":\"input\",\"isDisabled\":false,\"id\":\"body_picker\",\"hash\":\"66ad1cffdca2202611d9ca93e2643f7b\",\"sn-atf-data-type\":\"reference\",\"html_value\":\"\"}","fcc9d948600cfdd86d3ccc69e64cba86":"{\"area\":\"default\",\"sn_atf_mugshot_short_description\":\"Date &lt;input&gt; [shipped]\",\"sn_atf_mugshot_long_description\":\"Date &lt;input&gt; [shipped]\",\"methods\":[\"setValue\"],\"sn_atf_mugshot_label\":\"shipped\",\"type\":\"date\",\"version\":\"19.0\",\"get_value_result\":\"\",\"sn_atf_mugshot_tag_display_name\":\"Date &lt;input&gt;\",\"sn_atf_mugshot_value\":\"\",\"tag\":\"input\",\"isDisabled\":false,\"id\":\"shipped\",\"hash\":\"fcc9d948600cfdd86d3ccc69e64cba86\",\"html_value\":\"\"}","28d735f57b5081631dd009e2c5752d41":"{\"area\":\"default\",\"sn-atf-data-type-params\":\"{\\\"reference\\\" : \\\"sn_custom_robots_part\\\", \\\"reference_qual\\\" : \\\"type=arms^EQ\\\", \\\"valueField\\\" : \\\"sys_id\\\", \\\"displayField\\\" : \\\"name\\\"}\",\"sn_atf_mugshot_short_description\":\"Text &lt;input&gt; [arms_picker]\",\"sn_atf_mugshot_long_description\":\"Text &lt;input&gt; [arms_picker]\",\"methods\":[\"setValue\"],\"sn_atf_mugshot_label\":\"arms_picker\",\"index\":2,\"type\":\"text\",\"version\":\"19.0\",\"get_value_result\":\"\",\"sn_atf_mugshot_tag_display_name\":\"Text &lt;input&gt;\",\"data_type\":\"reference\",\"sn_atf_mugshot_value\":\"\",\"tag\":\"input\",\"isDisabled\":false,\"id\":\"arms_picker\",\"hash\":\"28d735f57b5081631dd009e2c5752d41\",\"sn-atf-data-type\":\"reference\",\"html_value\":\"\"}","6e580b83097f40dd440a72c5beef833d":"{\"area\":\"default\",\"sn-atf-data-type-params\":\"{\\\"reference\\\" : \\\"sn_custom_robots_part\\\", \\\"reference_qual\\\" : \\\"type=head^EQ\\\", \\\"valueField\\\" : \\\"sys_id\\\", \\\"displayField\\\" : \\\"name\\\"}\",\"sn_atf_mugshot_short_description\":\"Text &lt;input&gt; [head_picker]\",\"sn_atf_mugshot_long_description\":\"Text &lt;input&gt; [head_picker]\",\"methods\":[\"setValue\"],\"sn_atf_mugshot_label\":\"head_picker\",\"index\":2,\"type\":\"text\",\"version\":\"19.0\",\"get_value_result\":\"\",\"sn_atf_mugshot_tag_display_name\":\"Text &lt;input&gt;\",\"data_type\":\"reference\",\"sn_atf_mugshot_value\":\"\",\"tag\":\"input\",\"isDisabled\":false,\"id\":\"head_picker\",\"hash\":\"6e580b83097f40dd440a72c5beef833d\",\"sn-atf-data-type\":\"reference\",\"html_value\":\"\"}","c7919486329c85bd80e4ebd91b5949e4":"{\"area\":\"default\",\"sn-atf-data-type-params\":\"{\\\"reference\\\" : \\\"sn_custom_robots_part\\\", \\\"reference_qual\\\" : \\\"type=legs^EQ\\\", \\\"valueField\\\" : \\\"sys_id\\\", \\\"displayField\\\" : \\\"name\\\"}\",\"sn_atf_mugshot_short_description\":\"Text &lt;input&gt; [legs_picker]\",\"sn_atf_mugshot_long_description\":\"Text &lt;input&gt; [legs_picker]\",\"methods\":[\"setValue\"],\"sn_atf_mugshot_label\":\"legs_picker\",\"index\":2,\"type\":\"text\",\"version\":\"19.0\",\"get_value_result\":\"\",\"sn_atf_mugshot_tag_display_name\":\"Text &lt;input&gt;\",\"data_type\":\"reference\",\"sn_atf_mugshot_value\":\"\",\"tag\":\"input\",\"isDisabled\":false,\"id\":\"legs_picker\",\"hash\":\"c7919486329c85bd80e4ebd91b5949e4\",\"sn-atf-data-type\":\"reference\",\"html_value\":\"\"}","f73bccd53a5c8a3ec8f147577e4261e5":"{\"area\":\"default\",\"sn_atf_mugshot_short_description\":\"Date &lt;input&gt; [requested]\",\"sn_atf_mugshot_long_description\":\"Date &lt;input&gt; [requested]\",\"methods\":[\"setValue\"],\"sn_atf_mugshot_label\":\"requested\",\"type\":\"date\",\"version\":\"19.0\",\"get_value_result\":\"\",\"sn_atf_mugshot_tag_display_name\":\"Date &lt;input&gt;\",\"sn_atf_mugshot_value\":\"\",\"tag\":\"input\",\"isDisabled\":false,\"id\":\"requested\",\"hash\":\"f73bccd53a5c8a3ec8f147577e4261e5\",\"html_value\":\"\"}"}</mugshots_cache_json>
+        <notes/>
+        <order>4</order>
+        <snapshot/>
+        <step_config display_value="Set Component Values (Custom UI)">e5dd168473330300c79260bdfaf6a794</step_config>
+        <sys_class_name>sys_atf_step</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-04-14 20:53:00</sys_created_on>
+        <sys_id>be71d7cdbc2764107f44e41e341dd1be</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name>Set Component Values (Custom UI)</sys_name>
+        <sys_package display_value="Custom Robots" source="sn_custom_robots">5cb27d3873a11300f660eeadfff6a755</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Custom Robots">5cb27d3873a11300f660eeadfff6a755</sys_scope>
+        <sys_update_name>sys_atf_step_be71d7cdbc2764107f44e41e341dd1be</sys_update_name>
+        <sys_updated_by>cmb</sys_updated_by>
+        <sys_updated_on>2021-04-16 19:16:00</sys_updated_on>
+        <table/>
+        <test display_value="Order Robot via Portal">e210db4dbc2764107f44e41e341dd18c</test>
+        <timeout/>
+        <warning_message/>
+    </sys_atf_step>
+    <sys_variable_value action="delete_multiple" query="document_key=be71d7cdbc2764107f44e41e341dd1be"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>be71d7cdbc2764107f44e41e341dd1be</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-04-14 20:53:00</sys_created_on>
+        <sys_id>5b325301bc6764107f44e41e341dd175</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-04-15 00:57:57</sys_updated_on>
+        <value>fcc9d948600cfdd86d3ccc69e64cba86=2020-04-22^f73bccd53a5c8a3ec8f147577e4261e5=2020-04-21^6e580b83097f40dd440a72c5beef833d=e9ac8a3073e11300f660eeadfff6a72d^66ad1cffdca2202611d9ca93e2643f7b=afa1aaf473e11300f660eeadfff6a781^28d735f57b5081631dd009e2c5752d41=d6bc4a3073e11300f660eeadfff6a7dd^c7919486329c85bd80e4ebd91b5949e4=96bf52f473e11300f660eeadfff6a789^EQ</value>
+        <variable display_value="Component values">d12fde8473330300c79260bdfaf6a7b5</variable>
+    </sys_variable_value>
+</record_update>
