@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<unload unload_date="2021-05-13 18:31:15">
+<sn_custom_robots_template action="INSERT_OR_UPDATE">
+<arms display_value="Jet wings">3a8d4e3073e11300f660eeadfff6a74d</arms>
+<body display_value="Airtight storage compartment">9a659eb073e11300f660eeadfff6a703</body>
+<description/>
+<head display_value="Floating orb with LED face">83801e7073e11300f660eeadfff6a7a0</head>
+<legs display_value="Levitation drive">f56d8a3073e11300f660eeadfff6a7e4</legs>
+<name>Classified.</name>
+<needs_update>false</needs_update>
+<price>2565</price>
+<sys_class_name>sn_custom_robots_template</sys_class_name>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2018-04-16 11:57:28</sys_created_on>
+<sys_id>c54c973473611300f660eeadfff6a7f4</sys_id>
+<sys_mod_count>16</sys_mod_count>
+<sys_name>Classified.</sys_name>
+<sys_package display_value="Custom Robots" source="sn_custom_robots">5cb27d3873a11300f660eeadfff6a755</sys_package>
+<sys_policy/>
+<sys_scope display_value="Custom Robots">5cb27d3873a11300f660eeadfff6a755</sys_scope>
+<sys_update_name>sn_custom_robots_template_c54c973473611300f660eeadfff6a7f4</sys_update_name>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2018-04-20 07:36:20</sys_updated_on>
+</sn_custom_robots_template>
+<sn_custom_robots_template action="INSERT_OR_UPDATE">
+<arms display_value="Adaptable multi-tool arms">10055eb073e11300f660eeadfff6a7fb</arms>
+<body display_value="Trash can">cc8512f073e11300f660eeadfff6a77d</body>
+<description/>
+<head display_value="360º rotatable dome with accessory ports">f03292b073e11300f660eeadfff6a762</head>
+<legs display_value="Levitation drive">f56d8a3073e11300f660eeadfff6a7e4</legs>
+<name>DESTROY AND REJOICE!</name>
+<needs_update>false</needs_update>
+<price>2325</price>
+<sys_class_name>sn_custom_robots_template</sys_class_name>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2018-04-16 11:56:55</sys_created_on>
+<sys_id>721b973473611300f660eeadfff6a72d</sys_id>
+<sys_mod_count>2</sys_mod_count>
+<sys_name>DESTROY AND REJOICE!</sys_name>
+<sys_package display_value="Custom Robots" source="sn_custom_robots">5cb27d3873a11300f660eeadfff6a755</sys_package>
+<sys_policy/>
+<sys_scope display_value="Custom Robots">5cb27d3873a11300f660eeadfff6a755</sys_scope>
+<sys_update_name>sn_custom_robots_template_721b973473611300f660eeadfff6a72d</sys_update_name>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2018-04-20 07:07:26</sys_updated_on>
+</sn_custom_robots_template>
+<sn_custom_robots_template action="INSERT_OR_UPDATE">
+<arms display_value="Extendible air duct hoses (iron)">ef555eb073e11300f660eeadfff6a7f0</arms>
+<body display_value="Keg (titanium)">e68512f073e11300f660eeadfff6a7a9</body>
+<description/>
+<head display_value="Cylindrical sensor node topped with antenna (zinc)">3ee2d2b073e11300f660eeadfff6a77d</head>
+<legs display_value="Dual extendible limbs (dolomite)">45af827073e11300f660eeadfff6a7c3</legs>
+<name>I'm back, baby</name>
+<needs_update>false</needs_update>
+<price>160</price>
+<sys_class_name>sn_custom_robots_template</sys_class_name>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2018-04-16 11:48:25</sys_created_on>
+<sys_id>193adff073611300f660eeadfff6a76f</sys_id>
+<sys_mod_count>4</sys_mod_count>
+<sys_name>I'm back, baby</sys_name>
+<sys_package display_value="Custom Robots" source="sn_custom_robots">5cb27d3873a11300f660eeadfff6a755</sys_package>
+<sys_policy/>
+<sys_scope display_value="Custom Robots">5cb27d3873a11300f660eeadfff6a755</sys_scope>
+<sys_update_name>sn_custom_robots_template_193adff073611300f660eeadfff6a76f</sys_update_name>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2018-04-20 07:07:46</sys_updated_on>
+</sn_custom_robots_template>
+<sn_custom_robots_template action="INSERT_OR_UPDATE">
+<arms display_value="Articulated clamps">d6bc4a3073e11300f660eeadfff6a7dd</arms>
+<body display_value="Large pneumatic cylinder">3bbd137473611300f660eeadfff6a7d0</body>
+<description/>
+<head display_value="Binocular head with dual shades">e9ac8a3073e11300f660eeadfff6a72d</head>
+<legs display_value="Tank treads">986d8a3073e11300f660eeadfff6a7cc</legs>
+<name>Number 5</name>
+<needs_update>false</needs_update>
+<price>122.04</price>
+<sys_class_name>sn_custom_robots_template</sys_class_name>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2018-04-16 12:02:12</sys_created_on>
+<sys_id>cd6c5b3473611300f660eeadfff6a7ed</sys_id>
+<sys_mod_count>6</sys_mod_count>
+<sys_name>Number 5</sys_name>
+<sys_package display_value="Custom Robots" source="sn_custom_robots">5cb27d3873a11300f660eeadfff6a755</sys_package>
+<sys_policy/>
+<sys_scope display_value="Custom Robots">5cb27d3873a11300f660eeadfff6a755</sys_scope>
+<sys_update_name>sn_custom_robots_template_cd6c5b3473611300f660eeadfff6a7ed</sys_update_name>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2018-04-20 07:25:16</sys_updated_on>
+</sn_custom_robots_template>
+</unload>

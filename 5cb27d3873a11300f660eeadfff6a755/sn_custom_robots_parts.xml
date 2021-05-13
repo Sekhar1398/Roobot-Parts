@@ -1,0 +1,561 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<unload unload_date="2021-05-13 18:30:25">
+<sn_custom_robots_part action="INSERT_OR_UPDATE">
+<name>360 rotating platform</name>
+<picture/>
+<price>180</price>
+<sys_class_name>sn_custom_robots_part</sys_class_name>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2018-04-16 06:47:43</sys_created_on>
+<sys_id>ec7512f073e11300f660eeadfff6a713</sys_id>
+<sys_mod_count>2</sys_mod_count>
+<sys_name>360 rotating platform</sys_name>
+<sys_package display_value="Custom Robots" source="sn_custom_robots">5cb27d3873a11300f660eeadfff6a755</sys_package>
+<sys_policy/>
+<sys_scope display_value="Custom Robots">5cb27d3873a11300f660eeadfff6a755</sys_scope>
+<sys_update_name>sn_custom_robots_part_ec7512f073e11300f660eeadfff6a713</sys_update_name>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2018-04-18 08:18:06</sys_updated_on>
+<type>body</type>
+</sn_custom_robots_part>
+<sn_custom_robots_part action="INSERT_OR_UPDATE">
+<name>360º rotatable dome with accessory ports</name>
+<picture/>
+<price>35</price>
+<sys_class_name>sn_custom_robots_part</sys_class_name>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2018-04-16 06:33:28</sys_created_on>
+<sys_id>f03292b073e11300f660eeadfff6a762</sys_id>
+<sys_mod_count>3</sys_mod_count>
+<sys_name>360º rotatable dome with accessory ports</sys_name>
+<sys_package display_value="Custom Robots" source="sn_custom_robots">5cb27d3873a11300f660eeadfff6a755</sys_package>
+<sys_policy/>
+<sys_scope display_value="Custom Robots">5cb27d3873a11300f660eeadfff6a755</sys_scope>
+<sys_update_name>sn_custom_robots_part_f03292b073e11300f660eeadfff6a762</sys_update_name>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2018-04-18 08:32:32</sys_updated_on>
+<type>head</type>
+</sn_custom_robots_part>
+<sn_custom_robots_part action="INSERT_OR_UPDATE">
+<name>Adaptable multi-tool arms</name>
+<picture/>
+<price>35</price>
+<sys_class_name>sn_custom_robots_part</sys_class_name>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2018-04-16 06:45:40</sys_created_on>
+<sys_id>10055eb073e11300f660eeadfff6a7fb</sys_id>
+<sys_mod_count>4</sys_mod_count>
+<sys_name>Adaptable multi-tool arms</sys_name>
+<sys_package display_value="Custom Robots" source="sn_custom_robots">5cb27d3873a11300f660eeadfff6a755</sys_package>
+<sys_policy/>
+<sys_scope display_value="Custom Robots">5cb27d3873a11300f660eeadfff6a755</sys_scope>
+<sys_update_name>sn_custom_robots_part_10055eb073e11300f660eeadfff6a7fb</sys_update_name>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2018-04-18 08:37:10</sys_updated_on>
+<type>arms</type>
+</sn_custom_robots_part>
+<sn_custom_robots_part action="INSERT_OR_UPDATE">
+<name>Airtight storage compartment</name>
+<picture/>
+<price>150</price>
+<sys_class_name>sn_custom_robots_part</sys_class_name>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2018-04-16 06:47:28</sys_created_on>
+<sys_id>9a659eb073e11300f660eeadfff6a703</sys_id>
+<sys_mod_count>2</sys_mod_count>
+<sys_name>Airtight storage compartment</sys_name>
+<sys_package display_value="Custom Robots" source="sn_custom_robots">5cb27d3873a11300f660eeadfff6a755</sys_package>
+<sys_policy/>
+<sys_scope display_value="Custom Robots">5cb27d3873a11300f660eeadfff6a755</sys_scope>
+<sys_update_name>sn_custom_robots_part_9a659eb073e11300f660eeadfff6a703</sys_update_name>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2018-04-18 08:17:59</sys_updated_on>
+<type>body</type>
+</sn_custom_robots_part>
+<sn_custom_robots_part action="INSERT_OR_UPDATE">
+<name>Arachnid legs</name>
+<picture/>
+<price>18</price>
+<sys_class_name>sn_custom_robots_part</sys_class_name>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2018-04-16 07:36:30</sys_created_on>
+<sys_id>96bf52f473e11300f660eeadfff6a789</sys_id>
+<sys_mod_count>3</sys_mod_count>
+<sys_name>Arachnid legs</sys_name>
+<sys_package display_value="Custom Robots" source="sn_custom_robots">5cb27d3873a11300f660eeadfff6a755</sys_package>
+<sys_policy/>
+<sys_scope display_value="Custom Robots">5cb27d3873a11300f660eeadfff6a755</sys_scope>
+<sys_update_name>sn_custom_robots_part_96bf52f473e11300f660eeadfff6a789</sys_update_name>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2018-04-18 08:34:41</sys_updated_on>
+<type>legs</type>
+</sn_custom_robots_part>
+<sn_custom_robots_part action="INSERT_OR_UPDATE">
+<name>Articulated clamps</name>
+<picture/>
+<price>35</price>
+<sys_class_name>sn_custom_robots_part</sys_class_name>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2018-04-16 06:09:38</sys_created_on>
+<sys_id>d6bc4a3073e11300f660eeadfff6a7dd</sys_id>
+<sys_mod_count>4</sys_mod_count>
+<sys_name>Articulated clamps</sys_name>
+<sys_package display_value="Custom Robots" source="sn_custom_robots">5cb27d3873a11300f660eeadfff6a755</sys_package>
+<sys_policy/>
+<sys_scope display_value="Custom Robots">5cb27d3873a11300f660eeadfff6a755</sys_scope>
+<sys_update_name>sn_custom_robots_part_d6bc4a3073e11300f660eeadfff6a7dd</sys_update_name>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2018-04-18 08:37:18</sys_updated_on>
+<type>arms</type>
+</sn_custom_robots_part>
+<sn_custom_robots_part action="INSERT_OR_UPDATE">
+<name>Binocular head with dual shades</name>
+<picture/>
+<price>37</price>
+<sys_class_name>sn_custom_robots_part</sys_class_name>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2018-04-16 06:09:24</sys_created_on>
+<sys_id>e9ac8a3073e11300f660eeadfff6a72d</sys_id>
+<sys_mod_count>12</sys_mod_count>
+<sys_name>Binocular head with dual shades</sys_name>
+<sys_package display_value="Custom Robots" source="sn_custom_robots">5cb27d3873a11300f660eeadfff6a755</sys_package>
+<sys_policy/>
+<sys_scope display_value="Custom Robots">5cb27d3873a11300f660eeadfff6a755</sys_scope>
+<sys_update_name>sn_custom_robots_part_e9ac8a3073e11300f660eeadfff6a72d</sys_update_name>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2018-04-18 08:33:10</sys_updated_on>
+<type>head</type>
+</sn_custom_robots_part>
+<sn_custom_robots_part action="INSERT_OR_UPDATE">
+<name>Cylindrical sensor node topped with antenna (zinc)</name>
+<picture/>
+<price>40</price>
+<sys_class_name>sn_custom_robots_part</sys_class_name>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2018-04-16 06:39:35</sys_created_on>
+<sys_id>3ee2d2b073e11300f660eeadfff6a77d</sys_id>
+<sys_mod_count>6</sys_mod_count>
+<sys_name>Cylindrical sensor node topped with antenna (zinc)</sys_name>
+<sys_package display_value="Custom Robots" source="sn_custom_robots">5cb27d3873a11300f660eeadfff6a755</sys_package>
+<sys_policy/>
+<sys_scope display_value="Custom Robots">5cb27d3873a11300f660eeadfff6a755</sys_scope>
+<sys_update_name>sn_custom_robots_part_3ee2d2b073e11300f660eeadfff6a77d</sys_update_name>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2018-04-16 11:13:23</sys_updated_on>
+<type>head</type>
+</sn_custom_robots_part>
+<sn_custom_robots_part action="INSERT_OR_UPDATE">
+<name>Drone landing pad</name>
+<picture/>
+<price>25</price>
+<sys_class_name>sn_custom_robots_part</sys_class_name>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2018-04-16 07:28:56</sys_created_on>
+<sys_id>df9e1ab473e11300f660eeadfff6a7b3</sys_id>
+<sys_mod_count>7</sys_mod_count>
+<sys_name>Drone landing pad</sys_name>
+<sys_package display_value="Custom Robots" source="sn_custom_robots">5cb27d3873a11300f660eeadfff6a755</sys_package>
+<sys_policy/>
+<sys_scope display_value="Custom Robots">5cb27d3873a11300f660eeadfff6a755</sys_scope>
+<sys_update_name>sn_custom_robots_part_df9e1ab473e11300f660eeadfff6a7b3</sys_update_name>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2018-04-18 08:31:57</sys_updated_on>
+<type>head</type>
+</sn_custom_robots_part>
+<sn_custom_robots_part action="INSERT_OR_UPDATE">
+<name>Dual extendible limbs (dolomite)</name>
+<picture/>
+<price>40</price>
+<sys_class_name>sn_custom_robots_part</sys_class_name>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2018-04-16 06:22:16</sys_created_on>
+<sys_id>45af827073e11300f660eeadfff6a7c3</sys_id>
+<sys_mod_count>10</sys_mod_count>
+<sys_name>Dual extendible limbs (dolomite)</sys_name>
+<sys_package display_value="Custom Robots" source="sn_custom_robots">5cb27d3873a11300f660eeadfff6a755</sys_package>
+<sys_policy/>
+<sys_scope display_value="Custom Robots">5cb27d3873a11300f660eeadfff6a755</sys_scope>
+<sys_update_name>sn_custom_robots_part_45af827073e11300f660eeadfff6a7c3</sys_update_name>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2018-04-18 08:18:48</sys_updated_on>
+<type>legs</type>
+</sn_custom_robots_part>
+<sn_custom_robots_part action="INSERT_OR_UPDATE">
+<name>Extendible air duct hoses (iron)</name>
+<picture/>
+<price>40</price>
+<sys_class_name>sn_custom_robots_part</sys_class_name>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2018-04-16 06:47:16</sys_created_on>
+<sys_id>ef555eb073e11300f660eeadfff6a7f0</sys_id>
+<sys_mod_count>6</sys_mod_count>
+<sys_name>Extendible air duct hoses (iron)</sys_name>
+<sys_package display_value="Custom Robots" source="sn_custom_robots">5cb27d3873a11300f660eeadfff6a755</sys_package>
+<sys_policy/>
+<sys_scope display_value="Custom Robots">5cb27d3873a11300f660eeadfff6a755</sys_scope>
+<sys_update_name>sn_custom_robots_part_ef555eb073e11300f660eeadfff6a7f0</sys_update_name>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2018-04-18 08:20:56</sys_updated_on>
+<type>arms</type>
+</sn_custom_robots_part>
+<sn_custom_robots_part action="INSERT_OR_UPDATE">
+<name>Floating orb with LED face</name>
+<picture/>
+<price>100</price>
+<sys_class_name>sn_custom_robots_part</sys_class_name>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2018-04-16 06:32:44</sys_created_on>
+<sys_id>83801e7073e11300f660eeadfff6a7a0</sys_id>
+<sys_mod_count>7</sys_mod_count>
+<sys_name>Floating orb with LED face</sys_name>
+<sys_package display_value="Custom Robots" source="sn_custom_robots">5cb27d3873a11300f660eeadfff6a755</sys_package>
+<sys_policy/>
+<sys_scope display_value="Custom Robots">5cb27d3873a11300f660eeadfff6a755</sys_scope>
+<sys_update_name>sn_custom_robots_part_83801e7073e11300f660eeadfff6a7a0</sys_update_name>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2018-04-20 07:36:19</sys_updated_on>
+<type>head</type>
+</sn_custom_robots_part>
+<sn_custom_robots_part action="INSERT_OR_UPDATE">
+<name>Humanoid arms</name>
+<picture/>
+<price>250</price>
+<sys_class_name>sn_custom_robots_part</sys_class_name>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2018-04-16 07:40:59</sys_created_on>
+<sys_id>1b51a6f473e11300f660eeadfff6a7e4</sys_id>
+<sys_mod_count>1</sys_mod_count>
+<sys_name>Humanoid arms</sys_name>
+<sys_package display_value="Custom Robots" source="sn_custom_robots">5cb27d3873a11300f660eeadfff6a755</sys_package>
+<sys_policy/>
+<sys_scope display_value="Custom Robots">5cb27d3873a11300f660eeadfff6a755</sys_scope>
+<sys_update_name>sn_custom_robots_part_1b51a6f473e11300f660eeadfff6a7e4</sys_update_name>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2018-04-18 08:16:58</sys_updated_on>
+<type>arms</type>
+</sn_custom_robots_part>
+<sn_custom_robots_part action="INSERT_OR_UPDATE">
+<name>Humanoid head</name>
+<picture/>
+<price>300</price>
+<sys_class_name>sn_custom_robots_part</sys_class_name>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2018-04-16 07:27:34</sys_created_on>
+<sys_id>465e5eb473e11300f660eeadfff6a7ec</sys_id>
+<sys_mod_count>2</sys_mod_count>
+<sys_name>Humanoid head</sys_name>
+<sys_package display_value="Custom Robots" source="sn_custom_robots">5cb27d3873a11300f660eeadfff6a755</sys_package>
+<sys_policy/>
+<sys_scope display_value="Custom Robots">5cb27d3873a11300f660eeadfff6a755</sys_scope>
+<sys_update_name>sn_custom_robots_part_465e5eb473e11300f660eeadfff6a7ec</sys_update_name>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2018-04-18 08:15:18</sys_updated_on>
+<type>head</type>
+</sn_custom_robots_part>
+<sn_custom_robots_part action="INSERT_OR_UPDATE">
+<name>Humanoid legs</name>
+<picture/>
+<price>400</price>
+<sys_class_name>sn_custom_robots_part</sys_class_name>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2018-04-16 07:41:42</sys_created_on>
+<sys_id>80c12ef473e11300f660eeadfff6a737</sys_id>
+<sys_mod_count>1</sys_mod_count>
+<sys_name>Humanoid legs</sys_name>
+<sys_package display_value="Custom Robots" source="sn_custom_robots">5cb27d3873a11300f660eeadfff6a755</sys_package>
+<sys_policy/>
+<sys_scope display_value="Custom Robots">5cb27d3873a11300f660eeadfff6a755</sys_scope>
+<sys_update_name>sn_custom_robots_part_80c12ef473e11300f660eeadfff6a737</sys_update_name>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2018-04-18 08:19:54</sys_updated_on>
+<type>legs</type>
+</sn_custom_robots_part>
+<sn_custom_robots_part action="INSERT_OR_UPDATE">
+<name>Humanoid trunk</name>
+<picture/>
+<price>350</price>
+<sys_class_name>sn_custom_robots_part</sys_class_name>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2018-04-16 07:41:11</sys_created_on>
+<sys_id>afa1aaf473e11300f660eeadfff6a781</sys_id>
+<sys_mod_count>1</sys_mod_count>
+<sys_name>Humanoid trunk</sys_name>
+<sys_package display_value="Custom Robots" source="sn_custom_robots">5cb27d3873a11300f660eeadfff6a755</sys_package>
+<sys_policy/>
+<sys_scope display_value="Custom Robots">5cb27d3873a11300f660eeadfff6a755</sys_scope>
+<sys_update_name>sn_custom_robots_part_afa1aaf473e11300f660eeadfff6a781</sys_update_name>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2018-04-18 08:18:16</sys_updated_on>
+<type>body</type>
+</sn_custom_robots_part>
+<sn_custom_robots_part action="INSERT_OR_UPDATE">
+<name>Jet wings</name>
+<picture/>
+<price>75</price>
+<sys_class_name>sn_custom_robots_part</sys_class_name>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2018-04-16 06:13:13</sys_created_on>
+<sys_id>3a8d4e3073e11300f660eeadfff6a74d</sys_id>
+<sys_mod_count>4</sys_mod_count>
+<sys_name>Jet wings</sys_name>
+<sys_package display_value="Custom Robots" source="sn_custom_robots">5cb27d3873a11300f660eeadfff6a755</sys_package>
+<sys_policy/>
+<sys_scope display_value="Custom Robots">5cb27d3873a11300f660eeadfff6a755</sys_scope>
+<sys_update_name>sn_custom_robots_part_3a8d4e3073e11300f660eeadfff6a74d</sys_update_name>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2018-04-18 08:16:05</sys_updated_on>
+<type>arms</type>
+</sn_custom_robots_part>
+<sn_custom_robots_part action="INSERT_OR_UPDATE">
+<name>Keg (titanium)</name>
+<picture/>
+<price>40</price>
+<sys_class_name>sn_custom_robots_part</sys_class_name>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2018-04-16 06:48:01</sys_created_on>
+<sys_id>e68512f073e11300f660eeadfff6a7a9</sys_id>
+<sys_mod_count>5</sys_mod_count>
+<sys_name>Keg (titanium)</sys_name>
+<sys_package display_value="Custom Robots" source="sn_custom_robots">5cb27d3873a11300f660eeadfff6a755</sys_package>
+<sys_policy/>
+<sys_scope display_value="Custom Robots">5cb27d3873a11300f660eeadfff6a755</sys_scope>
+<sys_update_name>sn_custom_robots_part_e68512f073e11300f660eeadfff6a7a9</sys_update_name>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2018-04-18 08:20:38</sys_updated_on>
+<type>body</type>
+</sn_custom_robots_part>
+<sn_custom_robots_part action="INSERT_OR_UPDATE">
+<name>Large pneumatic cylinder</name>
+<picture/>
+<price>20</price>
+<sys_class_name>sn_custom_robots_part</sys_class_name>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2018-04-16 12:14:04</sys_created_on>
+<sys_id>3bbd137473611300f660eeadfff6a7d0</sys_id>
+<sys_mod_count>2</sys_mod_count>
+<sys_name>Large pneumatic cylinder</sys_name>
+<sys_package display_value="Custom Robots" source="sn_custom_robots">5cb27d3873a11300f660eeadfff6a755</sys_package>
+<sys_policy/>
+<sys_scope display_value="Custom Robots">5cb27d3873a11300f660eeadfff6a755</sys_scope>
+<sys_update_name>sn_custom_robots_part_3bbd137473611300f660eeadfff6a7d0</sys_update_name>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2018-04-18 08:36:16</sys_updated_on>
+<type>body</type>
+</sn_custom_robots_part>
+<sn_custom_robots_part action="INSERT_OR_UPDATE">
+<name>Levitation drive</name>
+<picture/>
+<price>2240</price>
+<sys_class_name>sn_custom_robots_part</sys_class_name>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2018-04-16 06:12:53</sys_created_on>
+<sys_id>f56d8a3073e11300f660eeadfff6a7e4</sys_id>
+<sys_mod_count>2</sys_mod_count>
+<sys_name>Levitation drive</sys_name>
+<sys_package display_value="Custom Robots" source="sn_custom_robots">5cb27d3873a11300f660eeadfff6a755</sys_package>
+<sys_policy/>
+<sys_scope display_value="Custom Robots">5cb27d3873a11300f660eeadfff6a755</sys_scope>
+<sys_update_name>sn_custom_robots_part_f56d8a3073e11300f660eeadfff6a7e4</sys_update_name>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2018-04-16 07:19:23</sys_updated_on>
+<type>legs</type>
+</sn_custom_robots_part>
+<sn_custom_robots_part action="INSERT_OR_UPDATE">
+<name>Mini cockpit</name>
+<picture/>
+<price>250</price>
+<sys_class_name>sn_custom_robots_part</sys_class_name>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2018-04-16 06:32:56</sys_created_on>
+<sys_id>691292b073e11300f660eeadfff6a779</sys_id>
+<sys_mod_count>4</sys_mod_count>
+<sys_name>Mini cockpit</sys_name>
+<sys_package display_value="Custom Robots" source="sn_custom_robots">5cb27d3873a11300f660eeadfff6a755</sys_package>
+<sys_policy/>
+<sys_scope display_value="Custom Robots">5cb27d3873a11300f660eeadfff6a755</sys_scope>
+<sys_update_name>sn_custom_robots_part_691292b073e11300f660eeadfff6a779</sys_update_name>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2018-04-18 08:15:26</sys_updated_on>
+<type>head</type>
+</sn_custom_robots_part>
+<sn_custom_robots_part action="INSERT_OR_UPDATE">
+<name>Mounted pew-pew laser guns</name>
+<picture/>
+<price>120</price>
+<sys_class_name>sn_custom_robots_part</sys_class_name>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2018-04-16 06:40:36</sys_created_on>
+<sys_id>64c31ab073e11300f660eeadfff6a7e8</sys_id>
+<sys_mod_count>3</sys_mod_count>
+<sys_name>Mounted pew-pew laser guns</sys_name>
+<sys_package display_value="Custom Robots" source="sn_custom_robots">5cb27d3873a11300f660eeadfff6a755</sys_package>
+<sys_policy/>
+<sys_scope display_value="Custom Robots">5cb27d3873a11300f660eeadfff6a755</sys_scope>
+<sys_update_name>sn_custom_robots_part_64c31ab073e11300f660eeadfff6a7e8</sys_update_name>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2018-04-18 08:16:50</sys_updated_on>
+<type>arms</type>
+</sn_custom_robots_part>
+<sn_custom_robots_part action="INSERT_OR_UPDATE">
+<name>Refreshment dispenser</name>
+<picture/>
+<price>50</price>
+<sys_class_name>sn_custom_robots_part</sys_class_name>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2018-04-18 08:26:17</sys_created_on>
+<sys_id>7a5e706973a11300f660eeadfff6a78a</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_name>Refreshment dispenser</sys_name>
+<sys_package display_value="Custom Robots" source="sn_custom_robots">5cb27d3873a11300f660eeadfff6a755</sys_package>
+<sys_policy/>
+<sys_scope display_value="Custom Robots">5cb27d3873a11300f660eeadfff6a755</sys_scope>
+<sys_update_name>sn_custom_robots_part_7a5e706973a11300f660eeadfff6a78a</sys_update_name>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2018-04-18 08:26:17</sys_updated_on>
+<type>head</type>
+</sn_custom_robots_part>
+<sn_custom_robots_part action="INSERT_OR_UPDATE">
+<name>Reinforced raptor legs</name>
+<picture/>
+<price>180</price>
+<sys_class_name>sn_custom_robots_part</sys_class_name>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2018-04-16 06:15:57</sys_created_on>
+<sys_id>143e027073e11300f660eeadfff6a7d4</sys_id>
+<sys_mod_count>2</sys_mod_count>
+<sys_name>Reinforced raptor legs</sys_name>
+<sys_package display_value="Custom Robots" source="sn_custom_robots">5cb27d3873a11300f660eeadfff6a755</sys_package>
+<sys_policy/>
+<sys_scope display_value="Custom Robots">5cb27d3873a11300f660eeadfff6a755</sys_scope>
+<sys_update_name>sn_custom_robots_part_143e027073e11300f660eeadfff6a7d4</sys_update_name>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2018-04-18 08:19:44</sys_updated_on>
+<type>legs</type>
+</sn_custom_robots_part>
+<sn_custom_robots_part action="INSERT_OR_UPDATE">
+<name>Self-stabilizing Uni-wheel</name>
+<picture/>
+<price>80</price>
+<sys_class_name>sn_custom_robots_part</sys_class_name>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2018-04-16 06:08:55</sys_created_on>
+<sys_id>0990c67c73a11300f660eeadfff6a7ab</sys_id>
+<sys_mod_count>2</sys_mod_count>
+<sys_name>Self-stabilizing Uni-wheel</sys_name>
+<sys_package display_value="Custom Robots" source="sn_custom_robots">5cb27d3873a11300f660eeadfff6a755</sys_package>
+<sys_policy/>
+<sys_scope display_value="Custom Robots">5cb27d3873a11300f660eeadfff6a755</sys_scope>
+<sys_update_name>sn_custom_robots_part_0990c67c73a11300f660eeadfff6a7ab</sys_update_name>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2018-04-18 08:19:19</sys_updated_on>
+<type>legs</type>
+</sn_custom_robots_part>
+<sn_custom_robots_part action="INSERT_OR_UPDATE">
+<name>Serving utensil toolkit</name>
+<picture/>
+<price>65</price>
+<sys_class_name>sn_custom_robots_part</sys_class_name>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2018-04-16 07:43:52</sys_created_on>
+<sys_id>0342aef473e11300f660eeadfff6a705</sys_id>
+<sys_mod_count>1</sys_mod_count>
+<sys_name>Serving utensil toolkit</sys_name>
+<sys_package display_value="Custom Robots" source="sn_custom_robots">5cb27d3873a11300f660eeadfff6a755</sys_package>
+<sys_policy/>
+<sys_scope display_value="Custom Robots">5cb27d3873a11300f660eeadfff6a755</sys_scope>
+<sys_update_name>sn_custom_robots_part_0342aef473e11300f660eeadfff6a705</sys_update_name>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2018-04-18 08:16:14</sys_updated_on>
+<type>arms</type>
+</sn_custom_robots_part>
+<sn_custom_robots_part action="INSERT_OR_UPDATE">
+<name>Stainless steel mini fridge</name>
+<picture/>
+<price>120</price>
+<sys_class_name>sn_custom_robots_part</sys_class_name>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2018-04-16 07:43:05</sys_created_on>
+<sys_id>2d126ef473e11300f660eeadfff6a7ac</sys_id>
+<sys_mod_count>4</sys_mod_count>
+<sys_name>Stainless steel mini fridge</sys_name>
+<sys_package display_value="Custom Robots" source="sn_custom_robots">5cb27d3873a11300f660eeadfff6a755</sys_package>
+<sys_policy/>
+<sys_scope display_value="Custom Robots">5cb27d3873a11300f660eeadfff6a755</sys_scope>
+<sys_update_name>sn_custom_robots_part_2d126ef473e11300f660eeadfff6a7ac</sys_update_name>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2018-04-18 08:17:50</sys_updated_on>
+<type>body</type>
+</sn_custom_robots_part>
+<sn_custom_robots_part action="INSERT_OR_UPDATE">
+<name>Tank treads</name>
+<picture/>
+<price>30.04</price>
+<sys_class_name>sn_custom_robots_part</sys_class_name>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2018-04-16 06:12:23</sys_created_on>
+<sys_id>986d8a3073e11300f660eeadfff6a7cc</sys_id>
+<sys_mod_count>8</sys_mod_count>
+<sys_name>Tank treads</sys_name>
+<sys_package display_value="Custom Robots" source="sn_custom_robots">5cb27d3873a11300f660eeadfff6a755</sys_package>
+<sys_policy/>
+<sys_scope display_value="Custom Robots">5cb27d3873a11300f660eeadfff6a755</sys_scope>
+<sys_update_name>sn_custom_robots_part_986d8a3073e11300f660eeadfff6a7cc</sys_update_name>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2018-04-20 07:25:10</sys_updated_on>
+<type>legs</type>
+</sn_custom_robots_part>
+<sn_custom_robots_part action="INSERT_OR_UPDATE">
+<name>Trash can</name>
+<picture/>
+<price>15</price>
+<sys_class_name>sn_custom_robots_part</sys_class_name>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2018-04-16 06:47:50</sys_created_on>
+<sys_id>cc8512f073e11300f660eeadfff6a77d</sys_id>
+<sys_mod_count>2</sys_mod_count>
+<sys_name>Trash can</sys_name>
+<sys_package display_value="Custom Robots" source="sn_custom_robots">5cb27d3873a11300f660eeadfff6a755</sys_package>
+<sys_policy/>
+<sys_scope display_value="Custom Robots">5cb27d3873a11300f660eeadfff6a755</sys_scope>
+<sys_update_name>sn_custom_robots_part_cc8512f073e11300f660eeadfff6a77d</sys_update_name>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2018-04-18 08:35:57</sys_updated_on>
+<type>body</type>
+</sn_custom_robots_part>
+<sn_custom_robots_part action="INSERT_OR_UPDATE">
+<name>Trash compactor</name>
+<picture/>
+<price>35</price>
+<sys_class_name>sn_custom_robots_part</sys_class_name>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2018-04-16 06:12:02</sys_created_on>
+<sys_id>69cc8a3073e11300f660eeadfff6a793</sys_id>
+<sys_mod_count>3</sys_mod_count>
+<sys_name>Trash compactor</sys_name>
+<sys_package display_value="Custom Robots" source="sn_custom_robots">5cb27d3873a11300f660eeadfff6a755</sys_package>
+<sys_policy/>
+<sys_scope display_value="Custom Robots">5cb27d3873a11300f660eeadfff6a755</sys_scope>
+<sys_update_name>sn_custom_robots_part_69cc8a3073e11300f660eeadfff6a793</sys_update_name>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2018-04-18 08:36:34</sys_updated_on>
+<type>body</type>
+</sn_custom_robots_part>
+<sn_custom_robots_part action="INSERT_OR_UPDATE">
+<name>Tripod with pneumatic wheels</name>
+<picture/>
+<price>25</price>
+<sys_class_name>sn_custom_robots_part</sys_class_name>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2018-04-16 06:16:28</sys_created_on>
+<sys_id>1b3e027073e11300f660eeadfff6a7c3</sys_id>
+<sys_mod_count>4</sys_mod_count>
+<sys_name>Tripod with pneumatic wheels</sys_name>
+<sys_package display_value="Custom Robots" source="sn_custom_robots">5cb27d3873a11300f660eeadfff6a755</sys_package>
+<sys_policy/>
+<sys_scope display_value="Custom Robots">5cb27d3873a11300f660eeadfff6a755</sys_scope>
+<sys_update_name>sn_custom_robots_part_1b3e027073e11300f660eeadfff6a7c3</sys_update_name>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2018-04-18 08:35:00</sys_updated_on>
+<type>legs</type>
+</sn_custom_robots_part>
+</unload>
